@@ -5,11 +5,11 @@ title:               Fictions
 tagline:             
 description:         ''
 url:                 ''
-baseurl:             '/ed/'
+baseurl:             ''
 
 # About/contact
 author:
-  name:              
+  name:   Prabhanjan Mutalik              
   url:               
   email:             
 
@@ -59,4 +59,4 @@ exclude:
 # Remote Theme
 # (Used only for GitHub deployments)
 # See https://help.github.com/en/articles/adding-a-jekyll-theme-to-your-github-pages-site
-remote_theme: minicomp/ed
+# remote_theme: minicomp/ed
