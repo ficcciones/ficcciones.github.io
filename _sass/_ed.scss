@@ -50,9 +50,11 @@ html {
 
 body {
   color: $text-color;
-//  background-color: #fff;
-  background-color: #000000; 
-  color: #ffffff;
+  background-color: #f9f9f9;
+//  background-color: #ffb3ba; 
+//  color: #ffffff;
+//  color: #f9f9f9;
+  color: #0c0c0c;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
@@ -82,11 +84,12 @@ body {
 */
 
 .container {
-  max-width: 32rem;
+  max-width: 52rem;
   padding-left:  1rem;
   padding-right: 1rem;
   margin-left:  auto;
   margin-right: auto;
+ 
 }
 
 @media (min-width: 56em) {
@@ -100,6 +103,10 @@ a, .text-title a {
   color: $link-color;
   text-decoration: none;
 }
+.link-title {
+ color: #f9f9f9
+}
+
 
 /* `:focus` is linked to `:hover` for basic accessibility */
 a:hover,
@@ -116,6 +123,9 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: -.025rem;
   line-height: 1.25;
   text-rendering: optimizeLegibility;
+  // color: #f9f9f9;
+  color: #0c0c0c;
+
 }
 
 h1,
@@ -126,6 +136,7 @@ h1.text-title {
 h2 {
   margin-top: 1rem;
   font-size: 1.2rem;
+  color: #0c0c0c;
 }
 
 h3, h4, h5, h6 {
@@ -168,6 +179,13 @@ mark {
   color: white;
   background-color: $link-color;
 }
+
+.footer {
+background-color: #5bc0de;
+ width: 100%;
+ height: 100%;
+
+} 
 
 /* Quotes */
 blockquote {
@@ -229,6 +247,8 @@ tbody tr:nth-child(odd) th {
   padding-top: 26px;
   padding-bottom: 1rem;
   text-align: center;
+  background-color: #5cb85c;
+  //background-color: #ffdfba;
 }
 
 .masthead-title {
@@ -250,6 +270,7 @@ tbody tr:nth-child(odd) th {
   font-size: .88rem;
   font-weight: normal;
   letter-spacing: .05rem;
+  color: #ffffff;
 }
 
 @media (min-width: 320px) {
@@ -724,13 +745,17 @@ li.prose-indent {
 .theme-base-red .sidebar,
 .theme-base-red .sidebar-toggle:active,
 .theme-base-red #sidebar-checkbox:checked ~ .sidebar-toggle {
-  background-color: #ac4142;
+  //background-color: #ac4142;
+  background-color: #428bca
+  //background-color: #ffb3ba	
 }
 
 .theme-base-red .container a,
 .theme-base-red .sidebar-toggle,
 .theme-base-red .related-posts li a:hover {
-  color: #ac4142;
+  //color: #ac4142;
+   color: #d9534f;
+  // color: #bae1ff
 }
 
 /* Orange */
@@ -804,3 +829,36 @@ li.prose-indent {
 .theme-base-brown .related-posts li a:hover {
   color: #8f5536;
 }
+
+/* Custom Theme */
+
+.theme-base-red .sidebar,
+.theme-base-red .sidebar-toggle:active,
+.theme-base-red #sidebar-checkbox:checked ~ .sidebar-toggle {
+  background-color: #232b2b;
+
+}
+
+.theme-base-red .container a,
+.theme-base-red .sidebar-toggle,
+.theme-base-red .related-posts li a:hover {
+   color: #8a989b;
+
+}
+
+body {
+  background-color: #0c0c0c;
+  color: #fefefe;
+}
+
+h1, h2, h3, h4, h5, h6 {
+ color: #fefefe;
+}
+
+.masthead {
+
+background-color: #414a4c;
+
+}
+
+
