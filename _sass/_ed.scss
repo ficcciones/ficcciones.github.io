@@ -28,6 +28,10 @@
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
+@font-face {
+    font-family: Engrave;
+    src: url("/OPTIEngraversOldEnglish.otf") format("opentype");
+}
 
 html,
 body {
@@ -45,6 +49,10 @@ html {
 @media (min-width: 38em) {
   html {
     font-size: $regular-font-size;
+    line-height: 1.5;
+  -webkit-font-smoothing: subpixel-antialiased;
+   -moz-osx-font-smoothing: grayscale;
+
   }
 }
 
@@ -108,6 +116,7 @@ a, .text-title a {
 }
 
 
+
 /* `:focus` is linked to `:hover` for basic accessibility */
 a:hover,
 a:focus {
@@ -125,6 +134,8 @@ h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizeLegibility;
   // color: #f9f9f9;
   color: #0c0c0c;
+  font-family: Book Antiqua, Palatino,Palatino Linotype,Palatino LT STD,Georgia,serif
+
 
 }
 
@@ -242,25 +253,26 @@ tbody tr:nth-child(odd) th {
 */
 
 .masthead {
-  border-bottom: 1px solid #eee;
+  border-bottom: 0px solid #eee;
   margin-bottom: 3rem;
-  padding-top: 26px;
-  padding-bottom: 1rem;
+  padding-top: 46px;
+  padding-bottom: 0.0rem;
   text-align: center;
   background-color: #5cb85c;
   //background-color: #ffdfba;
 }
 
 .masthead-title {
-  color: #505050;
+  color: #6a9fb5;
   font-family: $main-font;
-  font-size: 1.8rem;
+  font-size: 2.8rem;
   line-height: .777em;
   margin-top: 2em;
   margin-bottom: 0;
   margin-right: 0;
   margin-left: 0;
   text-align: center;
+  font-family: Engrave;
 }
 
 .masthead-title small {
@@ -270,7 +282,8 @@ tbody tr:nth-child(odd) th {
   font-size: .88rem;
   font-weight: normal;
   letter-spacing: .05rem;
-  color: #ffffff;
+  color: #f8f8f8;
+ 
 }
 
 @media (min-width: 320px) {
@@ -754,7 +767,7 @@ li.prose-indent {
 .theme-base-red .sidebar-toggle,
 .theme-base-red .related-posts li a:hover {
   //color: #ac4142;
-   color: #d9534f;
+   color: #6a9fb5;
   // color: #bae1ff
 }
 
@@ -842,23 +855,60 @@ li.prose-indent {
 .theme-base-red .container a,
 .theme-base-red .sidebar-toggle,
 .theme-base-red .related-posts li a:hover {
-   color: #8a989b;
+   color: #6a9fb5;
 
 }
 
 body {
-  background-color: #0c0c0c;
-  color: #fefefe;
+  background-color: #000000;
+  color: #f8f8f8;
+  
 }
 
 h1, h2, h3, h4, h5, h6 {
- color: #fefefe;
+ color: #f8f8f8;
+ text-weight: bold
 }
 
 .masthead {
 
-background-color: #414a4c;
+background-color: #000000;
 
 }
 
 
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 33.33%;
+  max-width: 33.33%;
+  padding: 0 5px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  height: 80%;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}

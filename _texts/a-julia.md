@@ -1,6 +1,7 @@
 ---
 layout: poem
 title: A Julia de Burgos
+filename: julia
 author: Julia de Burgos
 editor: Alex Gil
 source: Ciudad Seva
