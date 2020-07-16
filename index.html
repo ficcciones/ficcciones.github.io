@@ -11,20 +11,31 @@ title: "Fictions"
 </div>
 
     
-<!--<hr>-->
+<hr>
 <div class="toc">
-    <!--<li class="text-title">-->
+    <center>
     <div class="row">
         {% for item in site.texts %}
-
-       <div class="column">
-          <a href="{{ site.baseurl }}{{ item.url }}">
-              <img src="images/{{item.filename}}.jpeg" >
-          </a>
+      <div class="column">
+          <a style="font-size: 25px;" href="{{ item.url | prepend: site.baseurl }}">{{item.filename}}.</a>
       </div>
+      {% endfor %}
+    </div>
+    </center>
+
+    </div>
+
+    <!--<li class="text-title">-->
+<!--
+    {% for item in site.texts %}
+<a href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a>
+ <br>
        {% endfor %}
 
     </div>
 
-    <!--</li>-->
-</div>
+    <!--</li>
+</div>-->
+
+
+           

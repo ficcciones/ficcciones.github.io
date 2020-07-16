@@ -1,6 +1,6 @@
 ---
 layout: poem
-filename: delayed
+filename: IC
 title: Delayed till she had ceased to know
 author: Emily Dickinson
 editor: Alex Gil
