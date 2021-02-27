@@ -27,17 +27,17 @@ title: "Fictions"
 
 <div class="toc">
    <center>
-  <div class="row">    
   {% assign groups = site.texts | group_by:"category" %}
   {% for group in groups %}
       <h2>{{group.name | upcase}}</h2>
+       <div class="row">    
       {% for item in group.items %}
       <div class="column">
               <a style="font-size: 25px;" href="{{ item.url | prepend: site.baseurl }}">{{ item.filename }}</a>
       </div>
       {% endfor %}
+       </div>
   {% endfor %}
-  </div>
   </center>
 
   </div>
