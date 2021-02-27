@@ -4,7 +4,7 @@ filename: IVV
 title: "O Captain! My Captain!"
 author: Walt Whitman
 editor: Alex Gil
-category: Vykhandapura
+category: Fantastical Tales 
 ---
 
 - O Captain! my Captain! our fearful trip is done;[^fn1]

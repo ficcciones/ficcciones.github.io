@@ -5,7 +5,7 @@ filename: III
 author: Langston Hughes
 editor: Alex Gil
 source: Project Guttenberg
-category: Tapori
+category: Fantastical Tales 
 ---
 
 - Hold fast to dreams

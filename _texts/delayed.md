@@ -3,7 +3,7 @@ layout: poem
 filename: II
 title: Delayed till she had ceased to know
 story: A Haunting in the Summer House
-category: Chawl Chronicles
+category: Fantastical Tales 
 ---
 
 - DELAYED till she had ceased to know,
