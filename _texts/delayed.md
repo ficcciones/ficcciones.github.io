@@ -1,10 +1,9 @@
 ---
 layout: poem
-filename: IC
+filename: II
 title: Delayed till she had ceased to know
-author: Emily Dickinson
-editor: Alex Gil
-source: "Bartleby.com"
+story: A Haunting in the Summer House
+category: Chawl Chronicles
 ---
 
 - DELAYED till she had ceased to know,

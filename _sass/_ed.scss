@@ -38,6 +38,8 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  text-size-adjust: auto;
+
 }
 
 html {
@@ -64,6 +66,7 @@ body {
 //  color: #ffffff;
 //  color: #f9f9f9;
   color: #0c0c0c;
+ font-size: 19px;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }

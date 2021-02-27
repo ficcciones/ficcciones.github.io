@@ -1,10 +1,9 @@
 ---
 layout: poem
 title: A Julia de Burgos
-filename: XIV
-author: Julia de Burgos
-editor: Alex Gil
-source: Ciudad Seva
+filename: I
+story: A Haunting in the Summer House
+category: Fantastical Tales 
 ---
 
 - Ya las gentes murmuran que yo soy tu enemiga
