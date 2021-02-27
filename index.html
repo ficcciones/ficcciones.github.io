@@ -30,6 +30,7 @@ title: "Fictions"
   {% assign groups = site.texts | group_by:"category" %}
   {% for group in groups %}
       <h2>{{group.name | upcase}}</h2>
+      <br>
        <div class="row">    
       {% for item in group.items %}
       <div class="column">
